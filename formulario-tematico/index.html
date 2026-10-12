@@ -8,15 +8,15 @@
 
 <body>
     <header>
-        <h1>Bem vindo a Assistência Técnica Ezir</h1>
+        <h1>Bem vindo a Assistência Técnica Lesdieva</h1>
         <nav>
             <a href="#sobre">Sobre</a>
             <a href="#servicos">Serviços</a>
-            <a href="contato">Contato</a>
+            <a href="#contato">Contato</a>
         </nav>
     </header>
     <main>
-        <section>
+        <section id="servicos">
             <article>
                 <h2>Nossos serviços</h2>
                 <h3>Reparo</h3>
@@ -28,7 +28,49 @@
             <h3>Upgrade no seu PC</h3>
             <p><b>Esta pensando em fazer um upgrade?</b> Realizamos upgrade e fazemos um orçamento.</p>
         </section>
+        <section id="contato">
+        <h2>Faça um orçamento agora</h2>
+        <form action="#" method="POST">
+            <fieldset>
+                <legend><b>Informações para contato</b></legend>
+                <label for="campo-nome">Nome: </label><br>
+                <input type="text" name="nome-completo" id="campo-nome" placeholder="Informe seu nome para contato" required size="40">
+                <br>
+                <label for="campo-telefone">telefone: </label><br>
+                <input type="text" name="telefone-completo" id="campo-telefone" placeholder="Informe seu telefone" required size="40">
+                <br>
+                <label for="campo-email">email: </label><br>
+                <input type="text" name="email-completo" id="campo-email" placeholder="Informe seu email" required size="40">
+                <br>
+                <label for="campo-detalhes">Serviço: </label><br>
+                <input type="text" name="detalhes" id="campo-detalhes" placeholder="Digite o tipo de serviço solicitado" required size="40"> 
+            </fieldset>
+            <fieldset>
+                <button type="submit"><b>Confirmar seus dados</b></button>
+                <button type="reset"><b>Apagar dados preenchidos</b></button>
+            </fieldset>
+        </form>
+        </section>
     </main>
+        <hr>
+        <aside id="sobre">
+            <h3><b>Perguntas frequentes</b></h3>
+            <h4>Vocês realizam envio?</h4>
+            <p>Sim, realizamos envio de Seg a Sex comprados online com garantia da loja caso defeitos ou problemas de entrega.</p>
+            <h4>Quero fazer um orçamento, tenho que pagar?</h4>
+            <p>Não, a cobrança só é realizado se o cliente solicitar o serviço,realizamos o orçamento gratuitamente.</p>
+            <h4>Posso pedir reembolso caso alguma peça tenha defeito?</h4>
+            <p>Sim, realizamos reembolso conforme as normas da empresa, respeitanto o prazo de 7 dias depois da entrega se algum de nossos produtos possuir defeito ou arrependimento.</p>
+            <hr>
+            <h2>Funcionamento</h2>
+            <p>Seg a Sab das 08:00 as 16:00</p>
+            <p>Rua marechal deódoro - Avenida Braganças - Juiz de fora</p>
+            <p>Telefone: (32) 4444-4444</p>
+        </aside>
+        <hr>
+    <footer>
+        <p>&#x1f16d; @2026 Tech Lesdieva LTDA. todos os Direitos Reservados</p>
+    </footer>
 
 </body>
 </html>
